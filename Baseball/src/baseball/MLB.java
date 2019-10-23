@@ -1,9 +1,10 @@
+package baseball;
 import java.util.*;
-import java.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElement;
 
-public class Players {
+public class MLB {
   @XmlElement(name="player")
-  //stores Players
+  //stores MLB
   private List<Player> players = new ArrayList<>();
 
   // returns the List<Player>
